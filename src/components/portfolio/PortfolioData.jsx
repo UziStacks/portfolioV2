@@ -24,14 +24,14 @@ export const PortfolioData = [
     id: 3,
     image: IMG3,
     title: 'JsClock',
-    github: 'https://js-clock-mu.vercel.app/',
-    demo: 'https://github.com/UziStacks/JSClock',
+    github: 'https://github.com/UziStacks/JSClock',
+    demo: 'https://js-clock-mu.vercel.app/',
   },
   {
     id: 4,
     image: IMG4,
     title: 'First portfolio',
     github: 'https://github.com/UziStacks/devportfoliov1.2',
-    demo: 'https://terel-phillips.ca/',
+    demo: 'https://devportfoliov1-2.vercel.app/',
   },
 ];
