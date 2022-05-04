@@ -2,7 +2,7 @@ import IMG1 from '../../assets/Images/devsearch.png';
 import IMG2 from '../../assets/Images/countdown.png';
 import IMG3 from '../../assets/Images/JsClock.png';
 import IMG4 from '../../assets/Images/portfoliov1.png';
-import IMG5 from '../../assets/portfolio5.png';
+import IMG5 from '../../assets/Images/todoapp.png';
 import IMG6 from '../../assets/portfolio6.jpg';
 
 export const PortfolioData = [
@@ -33,5 +33,12 @@ export const PortfolioData = [
     title: 'First portfolio',
     github: 'https://github.com/UziStacks/devportfoliov1.2',
     demo: 'https://devportfoliov1-2.vercel.app/',
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Todo App',
+    github: 'https://github.com/UziStacks/Todo-app',
+    demo: 'https://todo-app-gules-mu.vercel.app/',
   },
 ];
