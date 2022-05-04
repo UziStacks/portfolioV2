@@ -31,13 +31,13 @@ const Nav = () => {
       >
         <RiSuitcaseLine />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav('#service')}
         className={activeNav === '#services' ? styles.active : ''}
       >
         <MdOutlineRoomService />
-      </a>
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav('#contant')}
