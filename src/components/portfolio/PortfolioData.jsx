@@ -3,42 +3,49 @@ import IMG2 from '../../assets/Images/countdown.png';
 import IMG3 from '../../assets/Images/JsClock.png';
 import IMG4 from '../../assets/Images/portfoliov1.png';
 import IMG5 from '../../assets/Images/todoapp.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+import IMG6 from '../../assets/Images/netflixclone.png';
 
 export const PortfolioData = [
   {
     id: 1,
+    image: IMG6,
+    title: 'Neflix Clone',
+    github: 'https://github.com/UziStacks/Netflix-clone-react-firebase',
+    demo: 'https://netflix-clone-react-firebase.vercel.app/',
+  },
+  {
+    id: 2,
+    image: IMG5,
+    title: 'Todo App',
+    github: 'https://github.com/UziStacks/Todo-app',
+    demo: 'https://todo-app-gules-mu.vercel.app/',
+  },
+  {
+    id: 3,
     image: IMG1,
     title: 'DevSearch',
     github: 'https://github.com/UziStacks/DevSearch',
     demo: 'https://dev-search.vercel.app',
   },
   {
-    id: 2,
+    id: 4,
     image: IMG2,
     title: 'Countdown LaunchPage',
     github: 'https://github.com/UziStacks/CountdownLaunchPage',
     demo: 'https://countdown-launch-page.vercel.app',
   },
   {
-    id: 3,
+    id: 5,
     image: IMG3,
     title: 'JsClock',
     github: 'https://github.com/UziStacks/JSClock',
     demo: 'https://js-clock-mu.vercel.app/',
   },
   {
-    id: 4,
+    id: 6,
     image: IMG4,
     title: 'First portfolio',
     github: 'https://github.com/UziStacks/devportfoliov1.2',
     demo: 'https://devportfoliov1-2.vercel.app/',
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Todo App',
-    github: 'https://github.com/UziStacks/Todo-app',
-    demo: 'https://todo-app-gules-mu.vercel.app/',
   },
 ];

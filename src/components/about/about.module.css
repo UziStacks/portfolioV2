@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-.about__me__image {
+.about__me__image { 
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
