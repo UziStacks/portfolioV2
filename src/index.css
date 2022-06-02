@@ -131,6 +131,12 @@ img {
   }
 }
 
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+}
+
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
   .container {

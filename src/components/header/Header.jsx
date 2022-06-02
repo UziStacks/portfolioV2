@@ -1,15 +1,15 @@
 import React from 'react';
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
-import ME from '../../assets/me.png';
+import { AiOutlineCaretDown } from 'react-icons/ai';
 import styles from './header.module.css';
 
 const header = () => {
   return (
     <header>
       <div className={`container ${styles.header__container}`}>
+        <HeaderSocials />
         <div className={styles.header_title__container}>
-          <HeaderSocials />
           <div>
             <h5>Hello, I'm Terel</h5>
             <h1>
@@ -17,17 +17,12 @@ const header = () => {
               bodybuilder, and competitive gamer.
             </h1>
           </div>
-          <a href="#contact" className={styles.scroll__down}>
-            Scroll Down
-          </a>
         </div>
+        <a href="#contact" className={styles.scroll__down}>
+          Scroll Down
+        </a>
         <CTA />
-
-        {/* <h5 className="text-light">FrontEnd Developer</h5> */}
-
-        {/* <div className={styles.me}>
-          <img src={ME} alt="devimage" />
-        </div> */}
+        <AiOutlineCaretDown id={styles.arrowIcon} />
       </div>
     </header>
   );
