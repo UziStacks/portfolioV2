@@ -8,17 +8,26 @@ const header = () => {
   return (
     <header>
       <div className={`container ${styles.header__container}`}>
-        <h5>Hello I'm</h5>
-        <h1>Terel</h1>
-        <h5 className="text-light">FrontEnd Developer</h5>
-        <CTA />
-        <HeaderSocials />
-        <div className={styles.me}>
-          <img src={ME} alt="devimage" />
+        <div className={styles.header_title__container}>
+          <HeaderSocials />
+          <div>
+            <h5>Hello, I'm Terel</h5>
+            <h1>
+              I'm a Front-End Software Engineer, average food enjoyer, part-time
+              bodybuilder, and competive gamer.
+            </h1>
+          </div>
+          <a href="#contact" className={styles.scroll__down}>
+            Scroll Down
+          </a>
         </div>
-        <a href="#contact" className={styles.scroll__down}>
-          Scroll Down
-        </a>
+        <CTA />
+
+        {/* <h5 className="text-light">FrontEnd Developer</h5> */}
+
+        {/* <div className={styles.me}>
+          <img src={ME} alt="devimage" />
+        </div> */}
       </div>
     </header>
   );

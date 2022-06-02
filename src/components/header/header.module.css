@@ -1,13 +1,26 @@
 header {
   height: 100vh;
   overflow: hidden;
-  padding-top: 7rem;
+  padding-top: 19rem;
 }
 
 .header__container {
   height: 100%;
   position: relative;
-  text-align: center;
+}
+
+.header__container h1 {
+  text-align: left;
+}
+
+.header__container h5 {
+  font-size: 5rem;
+}
+
+.header_title__container {
+  align-items: center;
+  display: flex;
+  gap: 5rem;
 }
 
 /* =================== CTA ========================== */
@@ -21,12 +34,12 @@ header {
 /* =================== HEADER SOCIALS ========================== */
 .header__socials {
   align-items: center;
-  bottom: 3rem;
+  bottom: 18rem;
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
   left: 0;
-  position: absolute;
+  position: relative;
 }
 
 .header__socials::after {
@@ -37,22 +50,22 @@ header {
 }
 
 /* =================== ME ========================== */
-.me {
+/* .me {
   background: linear-gradient(var(--color-primary), transparent);
   border-radius: 12rem 12rem 0 0;
   height: 32rem;
   left: 50%;
   margin-top: 4rem;
   overflow: hidden;
-  /* padding: 2rem 1.5rem 1.5rem 1.5rem; */
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
   position: absolute;
   transform: translate(-50%);
   width: 22rem;
-}
+} */
 
 /* =================== SCROLL DOWN ========================== */
 .scroll__down {
-  bottom: 5rem;
+  bottom: 10rem;
   font-size: 0.9rem;
   font-weight: 300;
   position: absolute;
@@ -71,10 +84,39 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+    padding-top: 0rem;
   }
 
-  .header__socials,
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header__container h1 {
+    font-size: 25px;
+  }
+
+  .header__container h5 {
+    color: var(--color-primary);
+    font-size: 2rem;
+  }
+
+  .header_title__container {
+    display: block;
+  }
+
+  /* =================== CTA ========================== */
+  .cta {
+    justify-content: start;
+  }
+
+  /* =================== SCROLL DOWN ========================== */
   .scroll__down {
+    bottom: 5rem;
+  }
+
+  .header__socials {
     display: none;
   }
 }
