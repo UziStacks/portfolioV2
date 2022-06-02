@@ -23,17 +23,12 @@
   margin-left: 5rem;
 }
 
-#arrowIcon {
-  animation: updown 2s ease infinite;
-  position: relative;
-  margin: 2rem auto 0;
-}
 /* =================== CTA ========================== */
 .cta {
   display: flex;
   flex-wrap: wrap;
   gap: 1.2rem;
-  margin-left: 5rem;
+  margin: -5rem 0 0 5rem;
 }
 
 /* =================== HEADER SOCIALS ========================== */
