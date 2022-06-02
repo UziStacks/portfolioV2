@@ -72,7 +72,14 @@
   margin-left: auto;
   position: relative;
   top: 5rem;
-  transform: rotate(90deg);
+  writing-mode: vertical-rl;
+  animation: updown2 2s ease infinite;
+}
+
+.scroll__down svg {
+  position: relative;
+  right: 1px;
+  top: 10px;
 }
 
 /* ======================== MEDIA QUERIES (LARGE DEVICES) ===================== */
@@ -87,16 +94,25 @@
     justify-content: center;
   }
 
+  .header__container h1 {
+    font-size: 2.4rem;
+  }
+
+  .header__container h5 {
+    margin-top: 2rem;
+  }
+
   .header__socials {
     margin-top: 0rem;
     position: absolute;
-    top: 10rem;
+    top: 3rem;
   }
 
   /* =================== SCROLL DOWN ========================== */
 
   .scroll__down {
-    top: 18rem;
+    top: 10rem;
+    margin-right: 2rem;
   }
 }
 
@@ -201,5 +217,19 @@
 
   100% {
     transform: translateY(-100%);
+  }
+}
+
+@keyframes updown2 {
+  0% {
+    transform: translateY(-20%);
+  }
+
+  50% {
+    transform: translateY(20%);
+  }
+
+  100% {
+    transform: translateY(-20%);
   }
 }

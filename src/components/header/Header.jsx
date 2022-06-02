@@ -20,6 +20,7 @@ const header = () => {
         </div>
         <a href="#contact" className={styles.scroll__down}>
           Scroll Down
+          <AiOutlineCaretDown />
         </a>
         <CTA />
         <AiOutlineCaretDown id={styles.arrowIcon} />
