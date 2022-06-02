@@ -14,7 +14,7 @@ const header = () => {
             <h5>Hello, I'm Terel</h5>
             <h1>
               I'm a Front-End Software Engineer, average food enjoyer, part-time
-              bodybuilder, and competive gamer.
+              bodybuilder, and competitive gamer.
             </h1>
           </div>
           <a href="#contact" className={styles.scroll__down}>
