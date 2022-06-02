@@ -26,6 +26,7 @@ header {
 /* =================== CTA ========================== */
 .cta {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.2rem;
   justify-content: center;
   margin-top: 2.5rem;
@@ -84,7 +85,7 @@ header {
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 100vh;
   }
 }
 
@@ -117,6 +118,10 @@ header {
   /* =================== CTA ========================== */
   .cta {
     justify-content: start;
+  }
+
+  .cta :nth-child(2) {
+    display: none;
   }
 
   /* =================== SCROLL DOWN ========================== */

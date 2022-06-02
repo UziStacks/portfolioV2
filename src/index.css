@@ -112,6 +112,11 @@ a:hover {
   color: var(--color-bg);
 }
 
+.react-pdf__Page__annotations,
+.annotationLayer {
+  display: none;
+}
+
 img {
   display: block;
   width: 100%;

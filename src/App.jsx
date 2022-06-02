@@ -1,26 +1,15 @@
 import React from 'react';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Experience from './components/experience/Experience';
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
-import Nav from './components/nav/Nav';
-import Portfolio from './components/portfolio/Portfolio';
-import Services from './components/services/Services';
-// import Tesimonials from './components/testimonials/Tesimonials';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import ResumePage from './pages/resume/ResumePage';
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      {/* <Services /> */}
-      <Portfolio />
-      {/* <Tesimonials /> */}
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<ResumePage />} />
+      </Routes>
     </>
   );
 };
