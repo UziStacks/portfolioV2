@@ -18,13 +18,14 @@ const header = () => {
             </h1>
           </div>
         </div>
-        <a href="#contact" className={styles.scroll__down}>
-          Scroll Down
-          <AiOutlineCaretDown />
-        </a>
+
         <CTA />
         <AiOutlineCaretDown id={styles.arrowIcon} />
       </div>
+      <a href="#contact" className={styles.scroll__down}>
+        Scroll Down
+        <AiOutlineCaretDown />
+      </a>
     </header>
   );
 };
