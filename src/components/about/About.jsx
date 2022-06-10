@@ -2,7 +2,7 @@ import React from 'react';
 import { GiBiceps } from 'react-icons/gi';
 import { GiKeyboard } from 'react-icons/gi';
 import { SiPcgamingwiki } from 'react-icons/si';
-import ME from '../../assets/Images/uziblue.png';
+import ME from '../../assets/uziblue-edited.png';
 import styles from './about.module.css';
 
 const About = () => {
